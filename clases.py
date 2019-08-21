@@ -1,15 +1,29 @@
-class Cacao:
-    pass
+class Cacao():
+    tamaño = ""
+    color = ""
+    forma = ""
+    peso = []
 
-class AccTijera:
-    pass
 
-class Camara:
-    pass
+class AccTijera():
+    presion = []
+    apertura = []  # centimetros
 
-class SensorProx:
-    pass
 
-class Pinza:
+class Camara():
+    sense_color = []
+    resolucion = []  # megapixeles
+
+
+class SensorProx():
+    dist_minima = []
+    dist_max = []
+
+
+class Pinza():
+    presion_max = []
+    presion_min = []
+
+
+class CortaMoni():
     pass
-    
