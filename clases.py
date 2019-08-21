@@ -6,7 +6,7 @@ class Cacao():
 
 
 class AccTijera():
-    presion = []
+    presion = Pinza()
     apertura = []  # centimetros
 
 
@@ -26,4 +26,6 @@ class Pinza():
 
 
 class CortaMoni():
-    pass
+    cortar = AccTijera()
+    cam = Camara()
+    proxm = SensorProx()
